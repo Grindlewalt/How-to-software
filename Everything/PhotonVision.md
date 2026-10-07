@@ -3,7 +3,9 @@
 How to set up and use PhotonVision for AprilTag / object detection.
 
 ## What you should be able to do
-- [ ] [[Connect and configure cameras]]
+
+- [ ]  [[What is PhotonVision]]
+- [ ] [[Connect and configure]]
 - [ ] [[Add cameras and transforms into code]]
 - [ ] [[Calibrate cameras]]
 
