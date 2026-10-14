@@ -20,3 +20,6 @@ Handling a battery safely is mostly common sense, but a few of these rules are n
 
 ## If something looks wrong
 If the top of the battery is bulging, abnormally hot (batteries can sometimes be warm after use and that's normal), smells weird, smoking or has damaged leads (most likely to happen) **do not use it.** Leave it where it is and grab a mentor. When in doubt, ask.
+
+---
+← Previous: [[Replace and test a battery]] | Next: [[Reading battery voltage]] | Up: [[Robot Power and Batteries]]

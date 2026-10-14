@@ -1,6 +1,6 @@
 # Installing Git
 
-How to install Git and clone the robot repo. Needed before [[Installing your IDE]] can open a project.
+How to install Git and clone the robot repo. Needed before your IDE can open the project, see [[Setting up your IDE]].
 
 ## What you should be able to do
 - [ ] Install Git on Mac
@@ -41,3 +41,6 @@ git status
 
 > [!todo] Still to write
 > GitHub login/access for pushing (ask a lead to add you), where cloned repos should live, committing and pushing, branches.
+
+---
+Up: [[Setting up your IDE]]

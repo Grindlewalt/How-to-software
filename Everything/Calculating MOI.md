@@ -20,3 +20,6 @@ Let's break down each part of this equation:
 Getting mass and trackwidth is pretty simple, it's the kA angular and linear that are a tad more difficult to get.
 
 > [!todo] Finish this when you have the actual robot
+
+---
+Up: [[Configuring the robot physics]]

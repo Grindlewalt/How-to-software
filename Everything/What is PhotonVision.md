@@ -1,6 +1,6 @@
-# What is PhotonVision
+*Part of [[PhotonVision]]*
 
-Part of [[PhotonVision]]
+---
 
 The robot needs to know where it is on the field for multiple critical things, like auto align/aim, autonomous routines, and more. Figuring that out is called **odometry**: "using sensors on the robot to create an estimate of the pose of the robot on the field".
 
@@ -17,7 +17,7 @@ PhotonVision uses cameras on the robot to take pictures of the field, then runs 
 3. **Measures the distortion.** If the camera is looking at the tag at an angle, the tag looks skewed, and that tells it the angle.
 4. **Publishes the result to NetworkTables**, something like "We are 5 feet away from AprilTag 13 at an angle of 30 degrees".
 
-From there, the robot has a list of where every AprilTag is on the field, so it looks up where AprilTag 13 is, does the math to work out where *we* must be, and updates the dead reckoned position. That gets rid of any drift that built up (say, over the last few seconds), which keeps the position accurate throughout the whole match.
+From there, the robot has a list of where every AprilTag is on the field, so it looks up where AprilTag 13 is, does the math to work out where we must be, and updates the dead reckoned position. That gets rid of any drift that built up (say, over the last few seconds), which keeps the position accurate throughout the whole match.
 
 ## Where this runs: the co-processor
 All of that image processing is too much work for the roboRIO to do on top of running the robot. So PhotonVision runs on a separate small computer on the robot called a **co-processor**.

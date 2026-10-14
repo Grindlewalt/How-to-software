@@ -21,3 +21,6 @@ We generally connect through cables, though there is a kind of messy way we can 
 
 > [!todo] Placeholder
 > idk this is a placeholder, if you are reading this, I forgot to remove it
+
+---
+← Previous: [[Recover from an E-stop]] | Next: [[Run an autonomous routine]] | Up: [[FRC Driver Station]]

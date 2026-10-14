@@ -20,3 +20,6 @@ The auto will run for the length of the autonomous period and then stop (in a re
 **It enables but the robot doesn't move:** Double check that you actually selected an auto in the chooser. If no auto is selected (or an empty/"do nothing" one is), the robot will sit there doing nothing, which looks exactly like it's broken but isn't.
 
 **It runs the wrong path or drives somewhere weird:** This is almost always either the wrong auto selected in the chooser, non updated vision, or the robot starting in the wrong spot. Reset the robot to its correct starting position, double check the PhotonVision GUI and that it's seeing tags / check AdvantageScope, and double check the chooser before trying again. There has been one weird bug where it consistently, no matter the orientation or location of the robot, would go backwards. If this happens, just let the standing software lead sort it out because it was a simple solution, but a complex journey to get to the solution. Happy auto making!!! This is my favorite part of software.
+
+---
+← Previous: [[Connect controllers]] | Up: [[FRC Driver Station]]

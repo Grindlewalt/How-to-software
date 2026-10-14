@@ -10,4 +10,7 @@ Table of contents on how to run the robot simulator on your own laptop.
 [[Launching and configuration of the simulator]]
 [[Basic uses of AdvantageScope]]
 [[Using elastic and selecting an autonomous routine]]
+[[Troubleshooting the sim]]
 
+---
+Up: [[How to software on the 4911 Cyberknights]]

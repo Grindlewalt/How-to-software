@@ -22,3 +22,6 @@ What to check when the simulator won't build, launch, or respond. Back to [[Laun
 
 > [!todo] Still to write
 > Fill in each item with the real fix. Verify every item against the repo as you go; this list is from problems I ran into earlier and hasn't been checked.
+
+---
+← Previous: [[Using elastic and selecting an autonomous routine]] | Up: [[Simulator]]

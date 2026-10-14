@@ -91,3 +91,6 @@ This is the method that actually moves the pivot motor. Its parameters, angle an
 
 ### The Full Path
 TODO: insert the full path
+
+---
+Up: [[Markers]]

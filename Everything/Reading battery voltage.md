@@ -22,3 +22,6 @@ We don't read voltage by eyeballing it, we use a little device called the **"Bat
 Once you find a battery at a significant amount of charge, lift it out of the charging bay **by the battery part** (not the leads), carry it over to the robot with **both hands**, and put it in. The full install steps, strap, plug, and breaker, are in [[Replace and test a battery]].
 
 For the safety side of all this, see [[Safe battery handling]].
+
+---
+← Previous: [[Safe battery handling]] | Up: [[Robot Power and Batteries]]

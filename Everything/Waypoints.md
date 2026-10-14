@@ -57,3 +57,6 @@ But if we add the Max angular velocity constraint to waypoints 1-5, we get this:
 ![[Screen Recording 2026-06-14 at 10.14.07 AM.gif]]
 
 If you also have a reason for a slow turn, you can simply increase it from 0 rads/s, but most of the time I use it for making sure the robot does not rotate at all, though there will be a use case where you'll not want the robot to rotate.
+
+---
+← Previous: [[Adding the auto to the auto picker and code]] | Next: [[Constraints]] | Up: [[Choreo]]

@@ -11,3 +11,6 @@ So go back over to Choreo and then click the highlighted button, this will build
 ![[Pasted image 20260613155443.png]]
 This will generate our trajectory file.
 Congrats! You just made your first auto, even if it doesn't do anything, but don't worry, it will soon!
+
+---
+← Previous: [[Configuring the robot physics]] | Next: [[Adding the auto to the auto picker and code]] | Up: [[Choreo]]

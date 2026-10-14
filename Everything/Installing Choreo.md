@@ -32,3 +32,6 @@ For the standalone version (where you may not have full rights to the computer):
 
 This also became my OS ranking list.
 -Grant, 2026
+
+---
+Next: [[Creating a project and saving it]] | Up: [[Choreo]]

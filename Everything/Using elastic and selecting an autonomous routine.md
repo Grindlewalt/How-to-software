@@ -1,6 +1,6 @@
-# Using Elastic and selecting an autonomous routine
+*Part of [[Simulator]]*
 
-Part of [[Simulator]]
+---
 
 Elastic is another tool that works with NetworkTables. It is used as a dashboard to display things like battery, match time, and the speed or current draw of a mechanism, and it is also how we select autos.
 
@@ -42,4 +42,4 @@ Full walkthrough:
 ![[Screen Recording 2026-10-06 at 5.10.19 PM.gif|500]]
 
 ---
-← Previous: [[Basic uses of AdvantageScope]] | Up: [[Simulator]]
+← Previous: [[Basic uses of AdvantageScope]] | Next: [[Troubleshooting the sim]] | Up: [[Simulator]]

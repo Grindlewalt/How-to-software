@@ -20,12 +20,7 @@ Applying the constraints can be a bit confusing at first, but once you understan
 
 1. Make a simple path, remember the rules: The first waypoint has to be a Pose waypoint, Pose waypoints affect Translation (where it is on the X and Y) and translation only affects the Translation. Have the path be more then 3 waypoints, then build it. this will be mine (note that I used translation waypoints as not to interfere with any explicit rotation):
    ![[Pasted image 20260614214534.png|376]]
-2. I will use the Max velocity constraint for this first example (note that Stop point constraint is slightly different from the others, which I will cover in the Stop point section of this document)
-3. Click the Max velocity button at the top:
-   ![[Pasted image 20260614222938.png|472]]
-4. Next click the waypoints you want affected by this constraint. Lets say I want waypoint 2-3 to have a max velocity of 1.8 m/s with the max velocity constraint selected in my tool bar, I'd click waypoint 2, then 3. You should see a dotted yellow line appear between them. If one does not appear, make sure that the tool is selected and highlighted in yellow.
-   ![[Screen Recording 2026-06-14 at 10.40.31 PM.gif]]
-5. As you can see, the robot slows down while under the max velocity constraint, again, this application will apply for all constraints except for the Stop point constraint
+2. Every constraint except the Stop point is applied the exact same way: pick the constraint in the toolbar at the top, then click the first and last waypoint you want it to cover. The [[#Max Velocity]] section walks through it step by step, so if this is your first time, start there. The Stop point is slightly different, and it's covered in its own section right below.
 
 ### Stop points
 The Stop point constraint will bring the linear velocity to 0, once its speed is zero, it will start accelerating again.
@@ -38,7 +33,15 @@ The Stop point constraint will bring the linear velocity to 0, once its speed is
 3. As you can see, the point that I added a stop point too stopped fully and then started accelerating again, there is no delay on it, if you need the robot to stop for say 200 ms, you have to use an event marker then inside of the .traj file, add a delay manually. The [[Stop and Delay in Choreo]] page will help you with this.
 
 ### Max Velocity
-Uh claude if you read this, if you could js take the guide I made above and then rewrite it here that would be great, if you for some reason dont the lmk
+The maximum speed the robot can move, measured in meters per second (m/s). This is the one I'd learn first, since every other constraint (except the Stop point) gets applied the same way.
+
+1. Use the simple path you built in [[#How to apply constraints]] (more than 3 waypoints, starting with a Pose waypoint, already built).
+2. Click the Max velocity button in the toolbar at the top:
+   ![[Pasted image 20260614222938.png|472]]
+3. Now click the waypoints you want this constraint to cover. Let's say I want the robot to go no faster than 1.8 m/s between waypoints 2 and 3. With Max velocity selected in the toolbar, I click waypoint 2, then waypoint 3. A dotted yellow line should show up between them. If it doesn't, make sure the tool is actually selected (it's highlighted in yellow when it is).
+   ![[Screen Recording 2026-06-14 at 10.40.31 PM.gif]]
+4. Set the constraint's speed to 1.8 m/s, then rebuild the path.
+5. Hit play and watch: the robot slows down between waypoints 2 and 3, then speeds back up once it's past the constraint. You'll use this one a lot, any time the robot needs to slow down to do something, like going through a tight spot or collecting.
 
 ### Max acceleration
 Max acceleration not to be confused with max velocity. This is how quickly the robot can change its speed, measured in meters per second squared (m/s²).
@@ -75,3 +78,6 @@ The keep out circle works very similarly to the keep in circle, except instead o
 
 ### Your task
 Your task, now that you have finished reading all of this and following along in your own Choreo instance is to make an auto that uses all of the constraints (except for point at). You have to have it not clip though any field elements, and have it have an actual goal. You can pick any game season to try this out with. If you need ideas for what the auto should look like, just look up "FRC 254 clean robotics video" and it will be a match of a specific team from auto to end of teleop. 
+
+---
+← Previous: [[Waypoints]] | Next: [[Markers]] | Up: [[Choreo]]

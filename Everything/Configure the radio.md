@@ -11,7 +11,7 @@ Configuring the radio is quite simple. I will most likely make a video and link 
 
 ## Initial connection
 - First connect the radio via Ethernet. This step applies for both the robot radio and the access point radio.
-- After that, open your web browser and navigate to http://192.168.69.1, or http://10.49.11.1 if the radio has already been configured.
+- After that, open your web browser and navigate to http://192.168.69.1, http://radio.local or http://10.49.11.1 if the radio has already been configured.
 - It should take you to a config screen that looks like this:
 
 ![[Pasted image 20260611115836.png|316]]
@@ -47,3 +47,6 @@ The process will be quite similar.
 There is a *lot* to cover for troubleshooting, but the LED indicators can be very helpful. The full LED debug docs can be found here: https://frc-radio.vivid-hosting.net/overview/led-status-indications
 
 Turning it on and off again can be surprisingly helpful. So can reconfiguring both radios, making sure everything matches up and that both radios are turned on. After competitions, you will have to reconfigure the robot radio.
+
+---
+Up: [[Robot Radio]]

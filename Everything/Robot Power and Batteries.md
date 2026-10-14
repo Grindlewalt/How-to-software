@@ -5,3 +5,6 @@ How to power the robot on/off and handle batteries safely.
 - [ ] [[Replace and test a battery]]
 - [ ] [[Safe battery handling]]
 - [ ] [[Reading battery voltage]]
+
+---
+Up: [[How to software on the 4911 Cyberknights]]

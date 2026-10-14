@@ -22,3 +22,6 @@ Replacing and testing a battery is very simple, but you need to know a few core 
 5. **Strap it down** — When the battery is in the robot, put the strap on around the battery. Make sure the battery leads are not under the strap themselves, so weave the strap to go between the 2 leads.
 6. **Plug it into the robot** — Plug the battery into the robot, this part will vary quite a bit between robots, but there will always be the robot plugin location right next to the battery compartment.
 7. **Flip the breaker back on** — Finally, flip the switch on the robot breaker back in, this part can be hard to describe so ask the standing software lead how to turn the robot on.
+
+---
+Next: [[Safe battery handling]] | Up: [[Robot Power and Batteries]]

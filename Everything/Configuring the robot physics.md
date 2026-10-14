@@ -17,3 +17,6 @@ Configuring robot physics is very important for making autos. If you have the in
 - **Motor rev/Wheel rev:** This will change year by year, but the manufacturers of the swerve module will publish them. In 2026 we used the MK5 swerve modules, which had different gearings: L1, L2 and L3. You can usually just search it up and it will say something like 6.37:1, so you can simply type 6.37.
 - **Motor max speed:** Another thing you can just look up online. For Kraken X60's it is 6000 RPM.
 - **Motor max torque:** Also look this up. For a Kraken X60 it is 7.09 N\*m, just type it as 7.09 N\*m.
+
+---
+← Previous: [[Creating a project and saving it]] | Next: [[Building and naming paths]] | Up: [[Choreo]]
